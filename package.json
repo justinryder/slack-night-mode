@@ -1,0 +1,24 @@
+{
+  "name": "slack-night-mode",
+  "version": "1.0.0",
+  "description": "A Stylish style for easy Slack theming. [CC0](http://creativecommons.org/publicdomain/zero/1.0/).",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinryder/slack-night-mode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinryder/slack-night-mode/issues"
+  },
+  "homepage": "https://github.com/justinryder/slack-night-mode#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "node-sass": "^4.7.2"
+  }
+}
