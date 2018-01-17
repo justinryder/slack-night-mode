@@ -1,15 +1,39 @@
-// Theme Colors
-$color-base: #f05523;
-$color-highlight: #f37820;
+$curse-orange: #f05523;
+$curse-orange-alt-1: #FF7F56;
+$curse-orange-alt-2: #FA9372;
+$curse-orange-alt-3: #F9AE96;
 
-$color-shade-darkest: #f05523;
-$color-shade-dark: #f37820;
-$color-shade-mid: #FF9346;
-$color-shade-light: #FF9346;
-$color-shade-lightest: #FFCAA3;
+$orange: #f37820;
+$orange-alt-1: #FF9346;
+$orange-alt-2: #FF9346;
+$orange-alt-3: #FFCAA3;
+
+$yellow: #ffc80b;
+$yellow-alt-1: #FFD543;
+$yellow-alt-2: #FCDD70;
+$yellow-alt-3: #FFEBA5;
+
+$white: #FFFFFF;
+$white-alt-1: #EDEDED;
+$white-alt-2: #F3F3F3;
+$white-alt-3: #FBFBFB;
+
+$slate-grey: #55565A;
+
+$cool-grey: #7F828C;
+
+// Theme Colors
+$color-base: $slate-grey;
+$color-highlight: $cool-grey;
+
+$color-shade-darkest: $curse-orange;
+$color-shade-dark: $curse-orange;
+$color-shade-mid: $orange;
+$color-shade-light: $orange;
+$color-shade-lightest: $yellow;
 
 // Font Colors
-$base-font-color: #EDEDED;
+$base-font-color: $white-alt-1;
 
-$base-link-color: #FFEBA5;
-$base-link-color-active: #FCDD70;
+$base-link-color: $curse-orange;
+$base-link-color-active: $orange;
