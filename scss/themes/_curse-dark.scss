@@ -22,18 +22,35 @@ $slate-grey: #55565A;
 
 $cool-grey: #7F828C;
 
+//// Theme Colors
+//$color-base: $slate-grey;
+//$color-highlight: $cool-grey;
+//
+//$color-shade-darkest: $curse-orange;
+//$color-shade-dark: $curse-orange;
+//$color-shade-mid: $orange;
+//$color-shade-light: $orange;
+//$color-shade-lightest: $yellow;
+//
+//// Font Colors
+//$base-font-color: $white-alt-1;
+//
+//$base-link-color: $curse-orange;
+//$base-link-color-active: $orange;
+
 // Theme Colors
 $color-base: $slate-grey;
 $color-highlight: $cool-grey;
 
-$color-shade-darkest: $curse-orange;
-$color-shade-dark: $curse-orange;
-$color-shade-mid: $orange;
-$color-shade-light: $orange;
-$color-shade-lightest: $yellow;
+$color-shade-darkest: #1d2027;
+$color-shade-dark: #2a2f39;
+$color-shade-mid: #454c5c;
+$color-shade-light: #6b6f79;
+$color-shade-lightest: #858991;
 
 // Font Colors
-$base-font-color: $white-alt-1;
+$base-font-color: $orange;
 
 $base-link-color: $curse-orange;
-$base-link-color-active: $orange;
+$base-link-color-active: $curse-orange-alt-1;
+
