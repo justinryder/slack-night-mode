@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
  $.ajax({
    url: 'https://raw.githubusercontent.com/justinryder/slack-night-mode/master/css/themes/build-variants/curse-dark--styles.css?_=' + Date.now(),
    success: function(css) {
-     $("<style></style>").appendTo('head').html(css);
+     $("<style></style>").appendTo('head').text(css);
    }
  });
 });
