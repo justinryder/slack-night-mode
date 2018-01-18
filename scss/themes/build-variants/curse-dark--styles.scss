@@ -5,23 +5,38 @@
 $curse-flame: 'https://emoji.slack-edge.com/T0DD4EHHS/curse-2017/90e462c8b0f4d555.png';
 $curse-flame-purple: 'https://emoji.slack-edge.com/T0DD4EHHS/cursepurple/c24f9a211bc12200.png';
 
-#primary_file_button .ts_icon_plus_thick {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
+:root {
 
-#primary_file_button .ts_icon_plus_thick:before {
-  content: '';
-  width: 100%;
-  height: 100%;
-  background-image: url($curse-flame);
-  background-repeat: no-repeat;
-  background-size: 75%;
-  background-position: center;
-}
+  #primary_file_button .ts_icon_plus_thick {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 
-#primary_file_button:hover .ts_icon_plus_thick:before {
-  background-image: url($curse-flame-purple);
+  #primary_file_button .ts_icon_plus_thick:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url($curse-flame);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+  }
+
+  #primary_file_button:hover .ts_icon_plus_thick:before {
+    background-image: url($curse-flame-purple);
+  }
+
+  // Sidebar border
+  .client_channels_list_container {
+    border-right: 1px solid $color-shade-mid;
+  }
+
+  // Editing message background
+  .c-message--highlight,
+  .c-message--highlight_yellow_bg {
+    background: $color-shade-lightest;
+  }
+
 }
