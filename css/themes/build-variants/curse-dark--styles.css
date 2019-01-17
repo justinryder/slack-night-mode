@@ -6840,6 +6840,9 @@
 :root .c-message__broadcast_preamble_outer {
   color: #454c5c; }
 
+:root .c-message__body--automated {
+  color: #454c5c; }
+
 :root #details_tab .feature_sli_channel_insights .channel_created_section .creator_link,
 :root #details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text,
 :root .p-channel_insights__drawer_title,

@@ -113,6 +113,11 @@
     color: $color-shade-light;
   }
 
+  // Joined/left channel text
+  .c-message__body--automated {
+    color: $color-shade-light;
+  }
+
   // Channel details sidebar text
   #details_tab .feature_sli_channel_insights .channel_created_section .creator_link,
   #details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text,
