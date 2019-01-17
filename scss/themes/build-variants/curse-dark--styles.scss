@@ -107,6 +107,12 @@
     background-color: $color-shade-mid;
   }
 
+  // Replied to a thread text (inline)
+  .c-message__broadcast_preamble,
+  .c-message__broadcast_preamble_outer {
+    color: $color-shade-light;
+  }
+
   // Channel details sidebar text
   #details_tab .feature_sli_channel_insights .channel_created_section .creator_link,
   #details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text,
