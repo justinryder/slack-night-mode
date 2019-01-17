@@ -69,6 +69,13 @@
     border-bottom: 1px solid $color-shade-mid;
   }
 
+  // Left sidebar channel hover
+  .p-channel_sidebar__channel:hover,
+  .p-channel_sidebar__link:hover,
+  .p-channel_sidebar__close_container:hover {
+    background: $color-shade-mid !important;
+  }
+
   // Right sidebar border
   #client-ui.flex_pane_showing #col_flex {
     border-left-color: $color-shade-mid;

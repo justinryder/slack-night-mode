@@ -6812,6 +6812,11 @@
 :root body.feature-vogue #team_menu {
   border-bottom: 1px solid #2a2f39; }
 
+:root .p-channel_sidebar__channel:hover,
+:root .p-channel_sidebar__link:hover,
+:root .p-channel_sidebar__close_container:hover {
+  background: #2a2f39 !important; }
+
 :root #client-ui.flex_pane_showing #col_flex {
   border-left-color: #2a2f39; }
 
