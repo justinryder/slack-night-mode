@@ -28,9 +28,22 @@
     background-image: url($curse-flame-purple);
   }
 
-  // Sidebar border
+  // Left sidebar border
   .client_channels_list_container {
     border-right: 1px solid $color-shade-mid;
+  }
+  body.feature-vogue #team_menu {
+    border-bottom: 1px solid $color-shade-mid;
+  }
+
+  // Right sidebar border
+  #client-ui.flex_pane_showing #col_flex {
+    border-left-color: $color-shade-mid;
+  }
+
+  // Message day divider horizontal rule
+  .c-message_list__day_divider__line {
+    border-top-color: $color-shade-mid;
   }
 
   // Editing message background
@@ -39,4 +52,23 @@
     background: $color-shade-lightest;
   }
 
+  // Team menu icon
+  #team_menu i {
+    color: $color-shade-light;
+  }
+
+  // Channel details sidebar text
+  #details_tab .feature_sli_channel_insights .channel_created_section .creator_link,
+  #details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text,
+  .p-channel_insights__drawer_title,
+  .p-channel_insights__member_count,
+  .p-channel_insights__member_count .ts_icon_user,
+  #details_tab .channel_page_member_tabs .icon_member_header {
+    color: $color-shade-light;
+  }
+
+  // Light gray text
+  .greigh {
+    color: $color-shade-light !important;
+  }
 }

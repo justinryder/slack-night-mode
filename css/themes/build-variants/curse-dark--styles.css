@@ -6772,6 +6772,29 @@
 :root .client_channels_list_container {
   border-right: 1px solid #2a2f39; }
 
+:root body.feature-vogue #team_menu {
+  border-bottom: 1px solid #2a2f39; }
+
+:root #client-ui.flex_pane_showing #col_flex {
+  border-left-color: #2a2f39; }
+
+:root .c-message_list__day_divider__line {
+  border-top-color: #2a2f39; }
+
 :root .c-message--highlight,
 :root .c-message--highlight_yellow_bg {
   background: #6b6f79; }
+
+:root #team_menu i {
+  color: #454c5c; }
+
+:root #details_tab .feature_sli_channel_insights .channel_created_section .creator_link,
+:root #details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text,
+:root .p-channel_insights__drawer_title,
+:root .p-channel_insights__member_count,
+:root .p-channel_insights__member_count .ts_icon_user,
+:root #details_tab .channel_page_member_tabs .icon_member_header {
+  color: #454c5c; }
+
+:root .greigh {
+  color: #454c5c !important; }
