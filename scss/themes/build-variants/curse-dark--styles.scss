@@ -44,6 +44,23 @@
     background-image: url($curse-flame-purple);
   }
 
+  // Buttons
+  .c-button--outline {
+    @extend .btn;
+    @extend .btn_outline;
+
+    &:after {
+      position: absolute;
+      content: '';
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: .25rem;
+      border: 1px solid $color-shade-mid;
+    }
+  }
+
   // Left sidebar border
   .client_channels_list_container {
     border-right: 1px solid $color-shade-mid;

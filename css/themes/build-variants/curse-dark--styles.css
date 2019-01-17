@@ -415,69 +415,69 @@
   border: 1px solid #454c5c;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
 
-:root .btn {
+:root .btn, :root .c-button--outline {
   background-color: #454c5c;
   color: #f37820 !important;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
-  :root .btn.hover, :root .btn:focus, :root .btn:hover, :root .btn.active, :root .btn:active {
+  :root .btn.hover, :root .hover.c-button--outline, :root .btn:focus, :root .c-button--outline:focus, :root .btn:hover, :root .c-button--outline:hover, :root .btn.active, :root .active.c-button--outline, :root .btn:active, :root .c-button--outline:active {
     background-color: #454c5c;
     color: #f37820; }
-  :root .btn.btn_border {
+  :root .btn.btn_border, :root .btn_border.c-button--outline {
     border: 2px solid #2a2f39; }
-  :root .btn.disabled, :root .btn:disabled {
+  :root .btn.disabled, :root .disabled.c-button--outline, :root .btn:disabled, :root .c-button--outline:disabled {
     background-color: #111111 !important; }
-    :root .btn.disabled:active, :root .btn.disabled:hover, :root .btn:disabled:active, :root .btn:disabled:hover {
+    :root .btn.disabled:active, :root .disabled.c-button--outline:active, :root .btn.disabled:hover, :root .disabled.c-button--outline:hover, :root .btn:disabled:active, :root .c-button--outline:disabled:active, :root .btn:disabled:hover, :root .c-button--outline:disabled:hover {
       background-color: #111111 !important; }
-  :root .btn.btn_outline.btn_danger, :root .btn.btn_outline.btn_warning {
+  :root .btn.btn_outline.btn_danger, :root .btn_danger.c-button--outline, :root .btn.btn_outline.btn_warning, :root .btn_warning.c-button--outline {
     background-color: #bf360c !important;
     color: #f37820 !important; }
-    :root .btn.btn_outline.btn_danger:focus, :root .btn.btn_outline.btn_danger:hover, :root .btn.btn_outline.btn_warning:focus, :root .btn.btn_outline.btn_warning:hover {
+    :root .btn.btn_outline.btn_danger:focus, :root .btn_danger.c-button--outline:focus, :root .btn.btn_outline.btn_danger:hover, :root .btn_danger.c-button--outline:hover, :root .btn.btn_outline.btn_warning:focus, :root .btn_warning.c-button--outline:focus, :root .btn.btn_outline.btn_warning:hover, :root .btn_warning.c-button--outline:hover {
       background-color: #1d2027 !important;
       border-color: #bf360c !important;
       color: #bf360c !important; }
-  :root .btn.btn_outline.disabled {
+  :root .btn.btn_outline.disabled, :root .disabled.c-button--outline {
     background: #2a2f39 !important;
     color: #855ec5 !important; }
-    :root .btn.btn_outline.disabled:hover {
+    :root .btn.btn_outline.disabled:hover, :root .disabled.c-button--outline:hover {
       background: #2a2f39 !important;
       color: #855ec5 !important; }
-  :root .btn.btn_attachment {
+  :root .btn.btn_attachment, :root .btn_attachment.c-button--outline {
     border-color: #454c5c; }
-    :root .btn.btn_attachment:hover, :root .btn.btn_attachment:focus {
+    :root .btn.btn_attachment:hover, :root .btn_attachment.c-button--outline:hover, :root .btn.btn_attachment:focus, :root .btn_attachment.c-button--outline:focus {
       background-color: #1d2027;
       border-color: #6b6f79; }
-    :root .btn.btn_attachment.btn_danger {
+    :root .btn.btn_attachment.btn_danger, :root .btn_attachment.btn_danger.c-button--outline {
       border-color: #bf360c; }
-      :root .btn.btn_attachment.btn_danger:hover, :root .btn.btn_attachment.btn_danger:focus {
+      :root .btn.btn_attachment.btn_danger:hover, :root .btn_attachment.btn_danger.c-button--outline:hover, :root .btn.btn_attachment.btn_danger:focus, :root .btn_attachment.btn_danger.c-button--outline:focus {
         border-color: #ef440f; }
-    :root .btn.btn_attachment.btn_primary {
+    :root .btn.btn_attachment.btn_primary, :root .btn_attachment.btn_primary.c-button--outline {
       border-color: #6b6f79; }
-      :root .btn.btn_attachment.btn_primary:hover, :root .btn.btn_attachment.btn_primary:focus {
+      :root .btn.btn_attachment.btn_primary:hover, :root .btn_attachment.btn_primary.c-button--outline:hover, :root .btn.btn_attachment.btn_primary:focus, :root .btn_attachment.btn_primary.c-button--outline:focus {
         border-color: #848893; }
 
 :root .btn_basic:focus, :root .btn_basic:hover {
   color: #f37820; }
 
-:root .btn_outline {
+:root .btn_outline, :root .c-button--outline {
   background: #1d2027;
   color: #855ec5 !important; }
-  :root .btn_outline::after {
+  :root .btn_outline::after, :root .c-button--outline::after {
     border: 1px solid #2a2f39; }
-  :root .btn_outline.btn_transparent {
+  :root .btn_outline.btn_transparent, :root .btn_transparent.c-button--outline {
     color: rgba(69, 76, 92, 0.9) !important; }
-    :root .btn_outline.btn_transparent::after {
+    :root .btn_outline.btn_transparent::after, :root .btn_transparent.c-button--outline::after {
       border: 1px solid rgba(29, 32, 39, 0.5); }
-    :root .btn_outline.btn_transparent.active, :root .btn_outline.btn_transparent.hover, :root .btn_outline.btn_transparent:active, :root .btn_outline.btn_transparent:focus, :root .btn_outline.btn_transparent:hover {
+    :root .btn_outline.btn_transparent.active, :root .btn_transparent.active.c-button--outline, :root .btn_outline.btn_transparent.hover, :root .btn_transparent.hover.c-button--outline, :root .btn_outline.btn_transparent:active, :root .btn_transparent.c-button--outline:active, :root .btn_outline.btn_transparent:focus, :root .btn_transparent.c-button--outline:focus, :root .btn_outline.btn_transparent:hover, :root .btn_transparent.c-button--outline:hover {
       background-color: rgba(69, 76, 92, 0.9) !important;
       color: #f9a1ff !important; }
-    :root .btn_outline.btn_transparent.active, :root .btn_outline.btn_transparent:active {
+    :root .btn_outline.btn_transparent.active, :root .btn_transparent.active.c-button--outline, :root .btn_outline.btn_transparent:active, :root .btn_transparent.c-button--outline:active {
       background-color: rgba(69, 76, 92, 0.8) !important; }
-  :root .btn_outline.hover, :root .btn_outline:focus, :root .btn_outline:hover {
+  :root .btn_outline.hover, :root .hover.c-button--outline, :root .btn_outline:focus, :root .c-button--outline:focus, :root .btn_outline:hover, :root .c-button--outline:hover {
     background: #1d2027;
     color: #f9a1ff !important; }
-  :root .btn_outline:active {
+  :root .btn_outline:active, :root .c-button--outline:active {
     color: #f9a1ff; }
-  :root .btn_outline.active {
+  :root .btn_outline.active, :root .active.c-button--outline {
     color: #f9a1ff !important; }
 
 :root .btn_link {
@@ -485,17 +485,18 @@
   :root .btn_link:hover, :root .btn_link:focus {
     color: #f9a1ff; }
 
-:root .btn-group.open .btn.dropdown-toggle {
+:root .btn-group.open .btn.dropdown-toggle, :root .btn-group.open .dropdown-toggle.c-button--outline {
   background-color: #454c5c; }
 
 :root .btn-group.open .btn-primary.dropdown-toggle {
   background-color: #2a2f39; }
 
-:root .btn-group > .btn + .dropdown-toggle {
+:root .btn-group > .btn + .dropdown-toggle, :root .btn-group > .c-button--outline + .dropdown-toggle {
   box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.125), inset 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px rgba(255, 255, 255, 0.05); }
 
 :root .btn_info,
-:root .btn.btn_success {
+:root .btn.btn_success,
+:root .btn_success.c-button--outline {
   background-color: #1d2027 !important; }
 
 :root .btn_warning,
@@ -2164,37 +2165,48 @@
   :root .file_container .file_header + .file_body,
   :root .c-file_container .file_header + .file_body {
     border-top: 1px solid #111111; }
-  :root .file_container .preview_actions .btn,
-  :root .c-file_container .preview_actions .btn {
+  :root .file_container .preview_actions .btn, :root .file_container .preview_actions .c-button--outline,
+  :root .c-file_container .preview_actions .btn,
+  :root .c-file_container .preview_actions .c-button--outline {
     background-color: #1d2027;
     color: #f37820 !important; }
-    :root .file_container .preview_actions .btn::after,
-    :root .c-file_container .preview_actions .btn::after {
+    :root .file_container .preview_actions .btn::after, :root .file_container .preview_actions .c-button--outline::after,
+    :root .c-file_container .preview_actions .btn::after,
+    :root .c-file_container .preview_actions .c-button--outline::after {
       border-color: #111111; }
-    :root .file_container .preview_actions .btn.preview_show_less_header,
-    :root .c-file_container .preview_actions .btn.preview_show_less_header {
+    :root .file_container .preview_actions .btn.preview_show_less_header, :root .file_container .preview_actions .preview_show_less_header.c-button--outline,
+    :root .c-file_container .preview_actions .btn.preview_show_less_header,
+    :root .c-file_container .preview_actions .preview_show_less_header.c-button--outline {
       background-color: rgba(107, 111, 121, 0.9);
       color: #f37820 !important; }
-      :root .file_container .preview_actions .btn.preview_show_less_header::after,
-      :root .c-file_container .preview_actions .btn.preview_show_less_header::after {
+      :root .file_container .preview_actions .btn.preview_show_less_header::after, :root .file_container .preview_actions .preview_show_less_header.c-button--outline::after,
+      :root .c-file_container .preview_actions .btn.preview_show_less_header::after,
+      :root .c-file_container .preview_actions .preview_show_less_header.c-button--outline::after {
         border: 2px solid #111111; }
-      :root .file_container .preview_actions .btn.preview_show_less_header:focus, :root .file_container .preview_actions .btn.preview_show_less_header:hover,
+      :root .file_container .preview_actions .btn.preview_show_less_header:focus, :root .file_container .preview_actions .preview_show_less_header.c-button--outline:focus, :root .file_container .preview_actions .btn.preview_show_less_header:hover, :root .file_container .preview_actions .preview_show_less_header.c-button--outline:hover,
       :root .c-file_container .preview_actions .btn.preview_show_less_header:focus,
-      :root .c-file_container .preview_actions .btn.preview_show_less_header:hover {
+      :root .c-file_container .preview_actions .preview_show_less_header.c-button--outline:focus,
+      :root .c-file_container .preview_actions .btn.preview_show_less_header:hover,
+      :root .c-file_container .preview_actions .preview_show_less_header.c-button--outline:hover {
         background-color: #1d2027; }
-        :root .file_container .preview_actions .btn.preview_show_less_header:focus::after, :root .file_container .preview_actions .btn.preview_show_less_header:hover::after,
+        :root .file_container .preview_actions .btn.preview_show_less_header:focus::after, :root .file_container .preview_actions .preview_show_less_header.c-button--outline:focus::after, :root .file_container .preview_actions .btn.preview_show_less_header:hover::after, :root .file_container .preview_actions .preview_show_less_header.c-button--outline:hover::after,
         :root .c-file_container .preview_actions .btn.preview_show_less_header:focus::after,
-        :root .c-file_container .preview_actions .btn.preview_show_less_header:hover::after {
+        :root .c-file_container .preview_actions .preview_show_less_header.c-button--outline:focus::after,
+        :root .c-file_container .preview_actions .btn.preview_show_less_header:hover::after,
+        :root .c-file_container .preview_actions .preview_show_less_header.c-button--outline:hover::after {
           border-color: #1d2027; }
   :root .file_container.image_container .image_body,
   :root .c-file_container.image_container .image_body {
     background-color: #1d2027; }
-  :root .file_container.image_container .preview_actions .btn,
-  :root .c-file_container.image_container .preview_actions .btn {
+  :root .file_container.image_container .preview_actions .btn, :root .file_container.image_container .preview_actions .c-button--outline,
+  :root .c-file_container.image_container .preview_actions .btn,
+  :root .c-file_container.image_container .preview_actions .c-button--outline {
     background-color: rgba(107, 111, 121, 0.9); }
-    :root .file_container.image_container .preview_actions .btn:focus, :root .file_container.image_container .preview_actions .btn:hover,
+    :root .file_container.image_container .preview_actions .btn:focus, :root .file_container.image_container .preview_actions .c-button--outline:focus, :root .file_container.image_container .preview_actions .btn:hover, :root .file_container.image_container .preview_actions .c-button--outline:hover,
     :root .c-file_container.image_container .preview_actions .btn:focus,
-    :root .c-file_container.image_container .preview_actions .btn:hover {
+    :root .c-file_container.image_container .preview_actions .c-button--outline:focus,
+    :root .c-file_container.image_container .preview_actions .btn:hover,
+    :root .c-file_container.image_container .preview_actions .c-button--outline:hover {
       background-color: #1d2027; }
   :root .file_container.image_container .preview_actions.overflow_preview_actions,
   :root .c-file_container.image_container .preview_actions.overflow_preview_actions {
@@ -3199,10 +3211,13 @@
 :root .tab_container .file_comment_item .actions .star_jump {
   background-color: #1d2027; }
 
-:root .tab_container .star_item .message .actions .btn::after,
+:root .tab_container .star_item .message .actions .btn::after, :root .tab_container .star_item .message .actions .c-button--outline::after,
 :root .tab_container .star_item ts-message .actions .btn::after,
+:root .tab_container .star_item ts-message .actions .c-button--outline::after,
 :root .tab_container .file_list_item .actions .btn::after,
-:root .tab_container .file_comment_item .actions .btn::after {
+:root .tab_container .file_list_item .actions .c-button--outline::after,
+:root .tab_container .file_comment_item .actions .btn::after,
+:root .tab_container .file_comment_item .actions .c-button--outline::after {
   border-color: #1d2027; }
 
 :root .tab_container .star_item ts-message .timestamp {
@@ -4440,7 +4455,7 @@
 :root .fs_modal_file_viewer_header {
   background-color: #1d2027;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
-  :root .fs_modal_file_viewer_header .btn {
+  :root .fs_modal_file_viewer_header .btn, :root .fs_modal_file_viewer_header .c-button--outline {
     color: #f37820; }
   :root .fs_modal_file_viewer_header .star {
     color: #2a2f39; }
@@ -5320,10 +5335,10 @@
       color: #bf360c; }
   :root .admin_list_item.error, :root .admin_list_item.expanded, :root .admin_list_item.processing, :root .admin_list_item.success {
     background-color: #1d2027; }
-  :root .admin_list_item.expanded .btn_outline {
+  :root .admin_list_item.expanded .btn_outline, :root .admin_list_item.expanded .c-button--outline {
     border-color: #1d2027;
     color: #f37820 !important; }
-    :root .admin_list_item.expanded .btn_outline:hover {
+    :root .admin_list_item.expanded .btn_outline:hover, :root .admin_list_item.expanded .c-button--outline:hover {
       border-color: #1d2027;
       color: #f37820 !important; }
   :root .admin_list_item.expanded .sub_action {
@@ -5763,7 +5778,7 @@
 
 :root .enterprise {
   background-color: #1d2027; }
-  :root .enterprise .btn.candy_red {
+  :root .enterprise .btn.candy_red, :root .enterprise .candy_red.c-button--outline {
     color: #bf360c !important; }
 
 :root .enterprise_analytics {
@@ -6052,7 +6067,7 @@
 :root body.api .hljs-regexp {
   color: #855ec5; }
 
-:root body.api span.btn {
+:root body.api span.btn, :root body.api span.c-button--outline {
   background-color: #1d2027; }
 
 :root body.api span.deprecation, :root body.api span.warning {
@@ -6509,9 +6524,9 @@
       border-left: 1px solid #454c5c; }
   :root nav .comments {
     background-color: #1d2027; }
-  :root nav .space_buttons .btn_outline {
+  :root nav .space_buttons .btn_outline, :root nav .space_buttons .c-button--outline {
     background-color: #2a2f39; }
-    :root nav .space_buttons .btn_outline::after {
+    :root nav .space_buttons .btn_outline::after, :root nav .space_buttons .c-button--outline::after {
       border-color: #454c5c; }
   :root nav .space_btn_star {
     background: none;
@@ -6585,10 +6600,10 @@
     color: #2a2f39; }
   :root #space_alert button#space_alert_close:hover::before {
     color: #2a2f39; }
-  :root #space_alert .btn_outline.btn_transparent {
+  :root #space_alert .btn_outline.btn_transparent, :root #space_alert .btn_transparent.c-button--outline {
     background-color: #2a2f39 !important;
     color: #f37820 !important; }
-    :root #space_alert .btn_outline.btn_transparent::after {
+    :root #space_alert .btn_outline.btn_transparent::after, :root #space_alert .btn_transparent.c-button--outline::after {
       border-color: #454c5c; }
 
 :root #space_find_bar {
@@ -6780,6 +6795,16 @@
 :root #primary_file_button:hover .ts_icon_plus_thick:before,
 :root .inline_file_upload:hover .upload_plus_icon:before {
   background-image: url("https://emoji.slack-edge.com/T0DD4EHHS/cursepurple/c24f9a211bc12200.png"); }
+
+:root .c-button--outline:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: .25rem;
+  border: 1px solid #2a2f39; }
 
 :root .client_channels_list_container {
   border-right: 1px solid #2a2f39; }
