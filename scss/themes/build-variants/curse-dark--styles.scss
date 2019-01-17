@@ -6,25 +6,41 @@
   $curse-flame: 'https://emoji.slack-edge.com/T0DD4EHHS/curse-2017/90e462c8b0f4d555.png';
   $curse-flame-purple: 'https://emoji.slack-edge.com/T0DD4EHHS/cursepurple/c24f9a211bc12200.png';
 
-
-  #primary_file_button .ts_icon_plus_thick {
+  // File upload buttons on chat text boxes
+  #primary_file_button .ts_icon_plus_thick,
+  .inline_file_upload .upload_plus_icon {
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+
+    &:hover {
+      background-color: $color-shade-mid;
+      border-color: $color-shade-dark;
+    }
+
+    &:before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-image: url($curse-flame);
+      background-repeat: no-repeat;
+      background-size: 75%;
+      background-position: center;
+    }
   }
 
-  #primary_file_button .ts_icon_plus_thick:before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-image: url($curse-flame);
-    background-repeat: no-repeat;
-    background-size: 75%;
-    background-position: center;
+  .inline_file_upload {
+    border-right-color: $color-shade-dark;
+
+    &:hover {
+      background-color: $color-shade-mid;
+      border-color: $color-shade-dark;
+    }
   }
 
-  #primary_file_button:hover .ts_icon_plus_thick:before {
+  #primary_file_button:hover .ts_icon_plus_thick:before,
+  .inline_file_upload:hover .upload_plus_icon:before {
     background-image: url($curse-flame-purple);
   }
 
@@ -44,6 +60,7 @@
   // Message day divider horizontal rule
   .c-message_list__day_divider__line {
     border-top-color: $color-shade-mid;
+    border-bottom: none;
   }
 
   // Editing message background
@@ -57,6 +74,22 @@
     color: $color-shade-light;
   }
 
+  // File upload title (inline)
+  .c-message__file_meta {
+    color: $color-shade-light;
+  }
+
+  // Thread reply button (inline)
+  .c-message__reply_bar_description {
+    color: $color-shade-light;
+  }
+
+  // Thread reply focus/hover
+  .c-message__reply_bar--focus .c-message__reply_bar_view_thread,
+  .c-message__reply_bar:hover .c-message__reply_bar_view_thread {
+    background-color: $color-shade-mid;
+  }
+
   // Channel details sidebar text
   #details_tab .feature_sli_channel_insights .channel_created_section .creator_link,
   #details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text,
@@ -67,8 +100,29 @@
     color: $color-shade-light;
   }
 
+  // Thread sidebar reply count text
+  #convo_container .convo_flexpane_divider .reply_count,
+  #file_preview_scroller .convo_flexpane_divider .reply_count {
+    color: $color-shade-light;
+  }
+
+  // Thread reply (send to channel) text
+  #file_reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container,
+  #reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container,
+  .reply_input_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container {
+    color: $color-shade-light;
+  }
+
+  // Profile widget title/status/timezone text
+  .menu_member_header .member_details .member_current_status,
+  .menu_member_header .member_details .member_timezone_value,
+  .menu_member_header .member_details .member_title {
+    color: $color-shade-light;
+  }
+
   // Light gray text
-  .greigh {
+  .greigh,
+  .old_petunia_grey {
     color: $color-shade-light !important;
   }
 }

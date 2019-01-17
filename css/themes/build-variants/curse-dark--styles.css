@@ -6751,22 +6751,34 @@
   :root .para_menu a.trigger.pilcrow:hover, :root .para_menu a.trigger.pilcrow.active {
     filter: grayscale(2) brightness(2); }
 
-:root #primary_file_button .ts_icon_plus_thick {
+:root #primary_file_button .ts_icon_plus_thick,
+:root .inline_file_upload .upload_plus_icon {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0; }
+  :root #primary_file_button .ts_icon_plus_thick:hover,
+  :root .inline_file_upload .upload_plus_icon:hover {
+    background-color: #2a2f39;
+    border-color: #1d2027; }
+  :root #primary_file_button .ts_icon_plus_thick:before,
+  :root .inline_file_upload .upload_plus_icon:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url("https://emoji.slack-edge.com/T0DD4EHHS/curse-2017/90e462c8b0f4d555.png");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center; }
 
-:root #primary_file_button .ts_icon_plus_thick:before {
-  content: '';
-  width: 100%;
-  height: 100%;
-  background-image: url("https://emoji.slack-edge.com/T0DD4EHHS/curse-2017/90e462c8b0f4d555.png");
-  background-repeat: no-repeat;
-  background-size: 75%;
-  background-position: center; }
+:root .inline_file_upload {
+  border-right-color: #1d2027; }
+  :root .inline_file_upload:hover {
+    background-color: #2a2f39;
+    border-color: #1d2027; }
 
-:root #primary_file_button:hover .ts_icon_plus_thick:before {
+:root #primary_file_button:hover .ts_icon_plus_thick:before,
+:root .inline_file_upload:hover .upload_plus_icon:before {
   background-image: url("https://emoji.slack-edge.com/T0DD4EHHS/cursepurple/c24f9a211bc12200.png"); }
 
 :root .client_channels_list_container {
@@ -6779,7 +6791,8 @@
   border-left-color: #2a2f39; }
 
 :root .c-message_list__day_divider__line {
-  border-top-color: #2a2f39; }
+  border-top-color: #2a2f39;
+  border-bottom: none; }
 
 :root .c-message--highlight,
 :root .c-message--highlight_yellow_bg {
@@ -6787,6 +6800,16 @@
 
 :root #team_menu i {
   color: #454c5c; }
+
+:root .c-message__file_meta {
+  color: #454c5c; }
+
+:root .c-message__reply_bar_description {
+  color: #454c5c; }
+
+:root .c-message__reply_bar--focus .c-message__reply_bar_view_thread,
+:root .c-message__reply_bar:hover .c-message__reply_bar_view_thread {
+  background-color: #2a2f39; }
 
 :root #details_tab .feature_sli_channel_insights .channel_created_section .creator_link,
 :root #details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text,
@@ -6796,5 +6819,20 @@
 :root #details_tab .channel_page_member_tabs .icon_member_header {
   color: #454c5c; }
 
-:root .greigh {
+:root #convo_container .convo_flexpane_divider .reply_count,
+:root #file_preview_scroller .convo_flexpane_divider .reply_count {
+  color: #454c5c; }
+
+:root #file_reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container,
+:root #reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container,
+:root .reply_input_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container {
+  color: #454c5c; }
+
+:root .menu_member_header .member_details .member_current_status,
+:root .menu_member_header .member_details .member_timezone_value,
+:root .menu_member_header .member_details .member_title {
+  color: #454c5c; }
+
+:root .greigh,
+:root .old_petunia_grey {
   color: #454c5c !important; }
