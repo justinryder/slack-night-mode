@@ -2,6 +2,12 @@ code {
   background-color: $color-shade-darkest;
   border: 1px solid $color-shade-dark;
   color: $base-font-color;
+
+  a.app_preview_link {
+    background: $color-shade-dark;
+    border: 1px solid $color-shade-light;
+    color: $base-font-color;
+  }
 }
 
 .file_list_item.snippet .snippet_preview {
@@ -17,7 +23,8 @@ code {
   }
 }
 
-.file_container {
+.file_container,
+.c-file_container {
   .CodeMirror,
   .sssh-code {
     .CodeMirror-code > div::before,
@@ -29,10 +36,20 @@ code {
   }
 }
 
+.c-snippet .c-file_container {
+  background-color: $color-base;
+
+  &.c-file_container--gradient::after {
+    background: linear-gradient(180deg, $color-shadow-transparent, $color-base);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+}
+
 .CodeMirror {
   background: $color-shade-darkest;
   border: 1px solid $color-shade-dark;
-  color: $base-font-color;
+  color: $base-font-color !important;
 
   pre {
     background: transparent !important;

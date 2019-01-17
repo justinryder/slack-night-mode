@@ -2,8 +2,12 @@
   .im_browser_row {
     border-top: 1px solid $color-shade-light;
 
-    &.multiparty .member_image + .member_image:not(.ra):not(.ura) {
-      border: 2px solid $color-shade-darkest;
+    &.multiparty {
+      color: $base-font-color;
+
+      .member_image + .member_image:not(.ra):not(.ura) {
+        border: 2px solid $color-shade-darkest;
+      }
     }
 
     .im_unread_cnt {
@@ -17,7 +21,7 @@
   }
 
   #im_list_container:not(.keyboard_active).not_scrolling .im_browser_row:not(.disabled_dm):hover,
-  #im_browser .im_browser_row.highlighted {
+  .im_browser_row.highlighted {
     background: $color-shade-darkest !important;
     border: 1px solid $color-shade-light !important;
   }

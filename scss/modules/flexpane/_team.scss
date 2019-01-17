@@ -77,6 +77,12 @@
 
 #team_tab #member_preview_scroller {
   background-color: $color-base;
+
+  .member_details {
+    .member_name {
+      color: $base-font-color;
+    }
+  }
 }
 
 #member_preview_scroller,
@@ -92,7 +98,8 @@
     }
 
     .member_restriction,
-    .member_timezone_value {
+    .member_timezone_value,
+    .member_current_status {
       color: $color-highlight;
 
       a {
@@ -165,4 +172,12 @@
   &:hover {
     background: $color-shade-light;
   }
+}
+
+.c-unified_member__display-name,
+.c-unified_member__secondary-name,
+.c-unified_member__title,
+.c-unified_member__other-names,
+.c-unified_member__other-names {
+  color: $base-font-color !important;
 }

@@ -156,15 +156,19 @@
 }
 
 #message_edit_container,
-.inline_message_input_container {
-  .message_input {
+#threads_msgs,
+#reply_container.upload_in_threads {
+  .inline_message_input_container,
+  .inline_message_input_container.with_file_upload {
+    background: $color-shade-light;
+    border-color: $color-shade-dark;
     color: $base-font-color;
   }
 }
 
 .inline_message_input_container .ql-container {
   border-color: $color-shade-light;
-
+  color: $base-font-color;
   &.focus,
   &:active,
   &:hover {
@@ -173,8 +177,15 @@
 }
 
 .c-message {
+  &--editing {
+    background: $color-shade-dark;
+    border-color: $color-shade-dark;
+    color: $base-font-color;
+  }
+
   &__editor {
-    &__input {
+    &__input,
+    &__input--legacy {
       background: $color-shade-light;
       border-color: $color-shade-dark;
       color: $base-font-color;
@@ -187,6 +198,24 @@
 
     &__warning {
       color: $color-red;
+    }
+  }
+
+  .c-button {
+    border-color: $color-shade-mid;
+
+    &--outline {
+      background-color: $color-shade-dark;
+      color: $base-link-color;
+
+      &:hover {
+        color: $base-link-color-active;
+      }
+    }
+
+    &--primary {
+      background-color: $color-shade-light;
+      color: $base-font-color;
     }
   }
 }
@@ -213,7 +242,8 @@
   }
 }
 
-.ql-placeholder {
+.ql-placeholder,
+.texty_legacy .ql-placeholder {
   color: $base-font-color;
   filter: none;
 }
