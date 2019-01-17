@@ -1,11 +1,11 @@
-@import "../curse-dark";
-
-@import "../../styles";
-
-$curse-flame: 'https://emoji.slack-edge.com/T0DD4EHHS/curse-2017/90e462c8b0f4d555.png';
-$curse-flame-purple: 'https://emoji.slack-edge.com/T0DD4EHHS/cursepurple/c24f9a211bc12200.png';
-
 :root {
+  @import "../curse-dark";
+
+  @import "../../styles";
+
+  $curse-flame: 'https://emoji.slack-edge.com/T0DD4EHHS/curse-2017/90e462c8b0f4d555.png';
+  $curse-flame-purple: 'https://emoji.slack-edge.com/T0DD4EHHS/cursepurple/c24f9a211bc12200.png';
+
 
   #primary_file_button .ts_icon_plus_thick {
     top: 0;
