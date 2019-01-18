@@ -160,4 +160,12 @@
   .old_petunia_grey {
     color: $color-shade-light !important;
   }
+
+  // Selected emoji reaction
+  .rxn.c-reaction--reacted,
+  .c-reaction.c-reaction--reacted,
+  .c-reaction_add.c-reaction--reacted,
+  .c-member_slug.c-reaction--reacted {
+    background-color: $color-shade-light;
+  }
 }

@@ -6873,3 +6873,9 @@
 :root .greigh,
 :root .old_petunia_grey {
   color: #454c5c !important; }
+
+:root .rxn.c-reaction--reacted,
+:root .c-reaction.c-reaction--reacted,
+:root .c-reaction_add.c-reaction--reacted,
+:root .c-member_slug.c-reaction--reacted {
+  background-color: #454c5c; }
