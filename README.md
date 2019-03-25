@@ -27,5 +27,5 @@ Save ssb-interop.js and restart Slack or reload it with CTRL+R.
 1) Paste the contents of [this CSS](https://raw.githubusercontent.com/justinryder/slack-night-mode/master/css/themes/build-variants/curse-dark--styles.css) into the Code text box
 1) Click the plus (+) icon next to "Applied to Everything"
 1) Change `URL` to `URLs matching the regexp`
-1) Paste this regex into the input beside the dropdown `.*slack\.com\/messages.*`
+1) Paste this regex into the input beside the dropdown `.*slack\.com\/(messages|threads|unreads).*`
 1) Save the style
