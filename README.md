@@ -7,12 +7,13 @@ Find `C:\Users\{username}\AppData\Local\slack\app-{slackversion}\resources\app.a
 ```
 // Load curse dark theme
 document.addEventListener('DOMContentLoaded', function() {
- $.ajax({
-   url: 'https://raw.githubusercontent.com/justinryder/slack-night-mode/master/css/themes/build-variants/curse-dark--styles.css?_=' + Date.now(),
-   success: function(css) {
-     $("<style></style>").appendTo('head').text(css);
-   }
- });
+    fetch('https://raw.githubusercontent.com/justinryder/slack-night-mode/master/css/themes/build-variants/curse-dark--styles.css?_=' + Date.now())
+        .then(res => res.text())
+        .then(css => {
+            const el = document.createElement('style');
+            el.innerText = css;
+            document.head.append(el);
+    });
 });
 ```
 
